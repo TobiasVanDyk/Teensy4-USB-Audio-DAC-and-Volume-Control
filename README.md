@@ -1,10 +1,13 @@
 # Teensy4-USB-Audio-DAC-and-Volume-Control
-Teensy4 USB Audio DAC and Volume Control using Volume Up and Down buttons (refer to Teensy4USBAudioKeybrd2.ino for the details):
+Teensy4 USB Audio DAC and Volume Control using Volume Up and Down buttons (Teensy4USBAudioKeybrd2.ino) and with a rotary encoder as volume control (Teensy4USBAudioKeybrd4.ino) for the details):
 <br>
 <p align="center">
 <img src="UsbAudioVolumeButtons2.png" width="940" />  
 <br>
-
+<p align="center">
+<img src="UsbAudioVolumeButtons1.png" width="940" />  
+<br>
+  
 Audio device in windows:
 <br>
 <p align="center">
