@@ -125,13 +125,6 @@ void ClrDisplay()
   //display.display();
 }
 
-void VolumeNum (long VNum, int TopBottom)
-{ display.setCursor(0,0); // x and y position 0-63, 0-47
-  display.print("V:");
-  display.print(VNum); 
-  display.println();
-}
-
 void PeakNum (uint8_t LPeak, uint8_t RPeak, int TopBottom)
 { display.setCursor(0,0); // x and y position 0-63, 0-47
   display.print("L:");
