@@ -23,4 +23,4 @@ New USB choice in Arduino IDE for Teensy 4 (refer to changes in boards.txt and u
 <img src="Teensy4USBTypes2.png" width="684" />  
 <br> 
   
-Volume control using a rotary encoder to follow...
+
