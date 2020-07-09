@@ -13,7 +13,7 @@ The encoder push-button switches the display on and off (the mute function is no
 Schematic PCM5102 DAC and 64x64 i2c OLED:
 <br>
 <p align="center">
-<img src="Teensy4AudioDACSch.png" width="540" /> 
+<img src="Teensy4AudioDACSch.png" width="640" /> 
 <br>
   
 Audio device in windows:
@@ -25,10 +25,10 @@ Audio device in windows:
 New USB choice in Arduino IDE for Teensy 4 (refer to changes in boards.txt and usb_desc.h):
 <br>
 <p align="center">
-<img src="Teensy4USBTypes1.png" width="606" />  
+<img src="Teensy4USBTypes1.png" width="506" />  
 <br>
 <p align="center">
-<img src="Teensy4USBTypes2.png" width="684" />  
+<img src="Teensy4USBTypes2.png" width="584" />  
 <br> 
   
 
