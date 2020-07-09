@@ -10,7 +10,7 @@ The encoder push-button switches the display on and off (the mute function is no
 <img src="UsbAudioVolumeButtons1.png" width="940" />  
 <br>
 
-Schematic PCM5102 DAC and SSD1306 Wemos D1 Mini 64x48 i2c OLED:
+Schematic Teensy 4.0 and a PCM5102 DAC and a 0.66" SSD1306 Wemos D1 Mini 64x48 i2c OLED Shield:
 <br>
 <p align="center">
 <img src="Teensy4AudioDACSch.png" width="640" /> 
