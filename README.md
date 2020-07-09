@@ -19,7 +19,7 @@ Schematic Teensy 4.0 and a PCM5102 DAC and a 0.66" SSD1306 Wemos D1 Mini 64x48 i
 0.66" SSD1306 Wemos D1 Mini 64x48 i2c OLED ShieldAudio device in windows:
 <br>
 <p align="center">
-<img src="WemosOled" width="700" />  
+<img src="WemosOled.png" width="700" />  
 <br> 
   
 Audio device in windows:
