@@ -9,6 +9,12 @@ The encoder push-button switches the display on and off (the mute function is no
 <p align="center">
 <img src="UsbAudioVolumeButtons1.png" width="940" />  
 <br>
+
+Schematic PCM5102 DAC and 64x64 i2c OLED:
+<p align="center">
+<img src="<br>
+<p align="center"Teensy4AudioDACSch.png" width="540" />  
+<br>
   
 Audio device in windows:
 <br>
