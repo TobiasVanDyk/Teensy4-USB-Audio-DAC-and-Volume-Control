@@ -9,8 +9,6 @@
 #include <Audio.h>
 #include <Wire.h>
 #include <SPI.h>
-//#include <SD.h>
-#include <SerialFlash.h>
 #include <Adafruit_GFX.h>
 #include <Adafruit_SSD1306.h>
 #include <Bounce.h>
@@ -18,14 +16,12 @@
 #define OLED_RESET 0  // GPIO0
 Adafruit_SSD1306 display(OLED_RESET);
 
-// Create Bounce objects for each button.  The Bounce object
-// automatically deals with contact chatter or "bounce", and
-// it makes detecting changes very simple.
+// Create Bounce objects for each button. 
 Bounce button0 = Bounce(0, 10);  // 10 ms debounce time is appropriate
 Bounce button1 = Bounce(1, 10);  // for most mechanical pushbuttons
 
 
-// GUItool: begin automatically generated code
+// GUItool automatically generated code
 AudioInputUSB            usb1;           //xy=97,150
 AudioAmplifier           amp1;           //xy=318,120
 AudioAmplifier           amp2;           //xy=318,204
@@ -38,7 +34,7 @@ AudioConnection          patchCord3(amp1, 0, i2s1, 0);
 AudioConnection          patchCord4(amp1, peak1);
 AudioConnection          patchCord5(amp2, 0, i2s1, 1);
 AudioConnection          patchCord6(amp2, peak2);
-// GUItool: end automatically generated code
+
 
 void DACInfo()
 { display.println("PCM5102");
@@ -85,15 +81,10 @@ void setup()
   //digitalWrite(LED_BUILTIN, HIGH);
   
   // Configure the pins for input mode with pullup resistors.
-  // The pushbuttons connect from each pin to ground.  When
-  // the button is pressed, the pin reads LOW because the button
-  // shorts it to ground.  When released, the pin reads HIGH
-  // because the pullup resistor connects to +5 volts inside
-  // the chip.
   pinMode(0, INPUT_PULLUP);
   pinMode(1, INPUT_PULLUP);
 
-    // generate the high voltage from the 3.3v line internally
+  // generate the high voltage from the 3.3v line internally
   // initialize with the I2C addr 0x3C (for the 64x48)
   display.begin(SSD1306_SWITCHCAPVCC, 0x3C);  
   display.display();
@@ -137,15 +128,11 @@ void loop()
                  } 
   }
   
-  // Update all the buttons.  There should not be any long
-  // delays in loop(), so this runs repetitively at a rate
-  // faster than the buttons could be pressed and released.
+  // Update all the buttons.  
   button0.update();
   button1.update();
 
   // Check each button for "falling" edge.
-  // falling = high (not pressed - voltage from pullup resistor)
-  //           to low (pressed - button connects pin to ground)
   if (button0.fallingEdge()) {
     Keyboard.press(KEY_MEDIA_VOLUME_DEC);
     Keyboard.release(KEY_MEDIA_VOLUME_DEC);
