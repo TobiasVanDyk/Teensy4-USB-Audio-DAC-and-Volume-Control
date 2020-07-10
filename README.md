@@ -13,7 +13,7 @@ The encoder push-button switches the display on and off (the mute function is no
 Schematic Teensy 4.0 and a PCM5102 DAC and a 0.66" SSD1306 Wemos D1 Mini 64x48 i2c OLED Shield:
 <br>
 <p align="center">
-<img src="Teensy4AudioDACSch2.png" width="640" /> 
+<img src="Teensy4AudioDAC2.png" width="640" /> 
 <br>
   
 0.66" SSD1306 Wemos D1 Mini 64x48 i2c OLED Shield:
@@ -25,9 +25,9 @@ Schematic Teensy 4.0 and a PCM5102 DAC and a 0.66" SSD1306 Wemos D1 Mini 64x48 i
 KY040 Rotary Encoder2:
 <br>
 <p align="center">
-<img src="KY040 Rotary Encoder1.jpg" width="600" />  
+<img src="KY040 Rotary Encoder1.jpg" width="300" />  
 <p align="center">
-<img src="KY040 Rotary Encoder2.jpg" width="638" />  
+<img src="KY040 Rotary Encoder2.jpg" width="320" />  
 <br>
   
 Audio device in windows:
