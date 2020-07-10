@@ -25,9 +25,7 @@ Schematic Teensy 4.0 and a PCM5102 DAC and a 0.66" SSD1306 Wemos D1 Mini 64x48 i
 KY040 Rotary Encoder2:
 <br>
 <p align="center">
-<img src="KY040 Rotary Encoder1.jpg" width="300" />  
-<p align="center">
-<img src="KY040 Rotary Encoder2.jpg" width="320" />  
+<img src="KY040 Rotary Encoder.png" width="900" />  
 <br>
   
 Audio device in windows:
