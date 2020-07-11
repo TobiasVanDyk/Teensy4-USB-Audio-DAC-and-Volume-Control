@@ -31,7 +31,9 @@ KY040 Rotary Encoder2:
 <p align="center">
 <img src="KY040 Rotary Encoder.png" width="900" />  
 <br>
-  
+
+### Programming
+
 Audio device in windows:
 <br>
 <p align="center">
