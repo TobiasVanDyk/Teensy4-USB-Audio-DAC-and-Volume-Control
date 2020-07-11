@@ -8,9 +8,9 @@
 ///////////////////////////////////////////////////////
 // Set Tools -> USB Type -> (All of the Above)
 // Audio + Keyboard (mediakeys) (+ Serial if needed)
-// Re-program is easier if Teensy uploader is closed
-// before pressing reset button on Teensy 4 else
-// difficult to reset port in windows
+// Re-program is easier if Teensy loader is closed
+// before pressing reset button on Teensy 4 - else
+// it is difficult to reset the port in windows
 ///////////////////////////////////////////////////////
 #include <Audio.h>
 #include <Wire.h>
@@ -221,8 +221,8 @@ void loop()
          display.display();  
          DisplayOff = 1; 
        } else DisplayOff = 0; 
-    //Keyboard.press(KEY_MEDIA_MUTE);   // Has no effect problem with Teensy Audio USB 
-    //Keyboard.release(KEY_MEDIA_MUTE); // Even if mute pressed inside windows
+    //Keyboard.press(KEY_MEDIA_MUTE);   // Has no effect problem with Teensy Audio USB device
+    //Keyboard.release(KEY_MEDIA_MUTE); // Even if mute pressed inside windows no effect on volume
   }
   
 }
