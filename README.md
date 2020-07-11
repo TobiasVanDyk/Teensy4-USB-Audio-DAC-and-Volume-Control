@@ -9,6 +9,9 @@ The encoder push-button switches the display on and off (the mute function is no
 <p align="center">
 <img src="UsbAudioVolumeButtons1.png" width="940" />  
 <br>
+<p align="center">
+<img src="Case1.png" width="940" />  
+<br>
 
 Schematic Teensy 4.0 and a PCM5102 DAC and a 0.66" SSD1306 Wemos D1 Mini 64x48 i2c OLED Shield:
 <br>
@@ -42,5 +45,13 @@ New USB choice in Arduino IDE for Teensy 4 (refer to changes in boards.txt and u
 <p align="center">
 <img src="Teensy4USBTypes2.png" width="584" />  
 <br> 
-  
 
+## Construction:
+Bottom part contains the Teensy 4.0 and the PCM5102 DAC. The top part consists of the 64x48 OLED, 3 pushbuttons, and the encoder.
+<br>
+<p align="center">
+<img src="Case2.png" width="940" />  
+<br>
+<p align="center">
+<img src="Case3.png" width="940" />  
+<br>
