@@ -58,7 +58,7 @@ Old and new USB choice in Arduino IDE for Teensy 4 (refer to the changes made in
 <br> 
 
 ### Initial testing and further construction details:
-Initial testing with 2 volume up/down pushbuttons, and also with a roary encoder as volume control. Also another view of the case lid.
+Initial testing with 2 volume up/down pushbuttons, and also with a roary encoder as volume control.
 <p align="center">
 <img src="UsbAudioVolumeButtons2.png" width="940" />  
 <br>
@@ -66,7 +66,7 @@ Initial testing with 2 volume up/down pushbuttons, and also with a roary encoder
 <img src="UsbAudioVolumeButtons1.png" width="940" />  
 <br>
 
-Bottom part contains the Teensy 4.0 and the PCM5102 DAC. The top part consists of the 64x48 OLED, 3 pushbuttons, and the encoder.
+Case bottom (at the top) houses the Teensy 4.0 and the PCM5102 DAC. The case lid (at the bottom) houses the 64x48 OLED, 3 pushbuttons (optional), and the rotary encoder.
 <br>
 <p align="center">
 <img src="Case2.png" width="940" />  
