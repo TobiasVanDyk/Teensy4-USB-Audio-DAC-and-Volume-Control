@@ -58,6 +58,7 @@ Old and new USB choice in Arduino IDE for Teensy 4 (refer to the changes made in
 <br> 
 
 ### Initial testing and further construction details:
+Initial testing with 2 volume up/down pushbuttons, and also with a roary encoder as volume control. Also another view of the case lid.
 <p align="center">
 <img src="UsbAudioVolumeButtons2.png" width="940" />  
 <br>
