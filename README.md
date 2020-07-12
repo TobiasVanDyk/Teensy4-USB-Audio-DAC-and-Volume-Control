@@ -16,7 +16,7 @@ Bottom part contains the Teensy 4.0 and the PCM5102 DAC. The case lid holds the 
 <img src="Case1.png" width="940" />  
 <br>  
   
-All wired up - decide to discard the three pushbuttons - they add little functionality.
+All wired up - I decided to discard the three pushbuttons - they add little functionality. May add them again at a later stage.
 <br>
 <p align="center">
 <img src="Case4.png" width="940" />  
