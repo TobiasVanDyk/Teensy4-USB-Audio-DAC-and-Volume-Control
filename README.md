@@ -15,6 +15,17 @@ Bottom part contains the Teensy 4.0 and the PCM5102 DAC. The case lid holds the 
 <p align="center">
 <img src="Case1.png" width="940" />  
 <br>  
+All wired up - decide to discard the three pushbuttons - they add little functionality.
+<br>
+<p align="center">
+<img src="Case4.png" width="940" />  
+<br>
+  
+Finished - must buy a proper aliminium knob instead of a toothpase cap.
+<br>
+<p align="center">
+<img src="Case5.png" width="940" />  
+<br>
   
 0.66" SSD1306 Wemos D1 Mini 64x48 i2c OLED Shield:
 <br>
