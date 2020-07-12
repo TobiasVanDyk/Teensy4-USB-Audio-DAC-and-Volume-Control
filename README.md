@@ -21,7 +21,7 @@ All wired up - decide to discard the three pushbuttons - they add little functio
 <img src="Case4.png" width="940" />  
 <br>
   
-Finished - must buy a proper aliminium knob instead of a toothpase cap.
+Finished - must buy a proper aluminium knob instead of a toothpase cap.
 <br>
 <p align="center">
 <img src="Case5.png" width="940" />  
