@@ -5,13 +5,14 @@
 // DATA         7  OUT1A
 // BCK          21 BCLK1
 
-///////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
 // Set Tools -> USB Type -> (All of the Above)
-// Audio + Keyboard (mediakeys) (+ Serial if needed)
-// Re-program is easier if Teensy loader is closed
-// before pressing reset button on Teensy 4 - else
-// it is difficult to reset the port in windows
-///////////////////////////////////////////////////////
+// Audio + Keyboard (mediakeys) (+ pseudoSerial)
+// This requires the modifide boards.txt and usb_desc.h
+// Re-programming is easier if Teensy loader is closed
+// before pressing the reset button on Teensy 4 - else
+// it is difficult to show the port in the Arduino IDE (windows)
+//////////////////////////////////////////////////////////////////
 #include <Audio.h>
 #include <Wire.h>
 #include <Adafruit_GFX.h>
@@ -56,6 +57,7 @@ const unsigned char ttable[8][4] = {
 Adafruit_SSD1306 display(OLED_RESET);
 
 // Create Bounce objects for each button
+// Pushbuttons are optional
 Bounce button0 = Bounce(0, 10);  // 10 ms debounce
 Bounce button1 = Bounce(1, 10);  
 Bounce button4 = Bounce(4, 10);  
