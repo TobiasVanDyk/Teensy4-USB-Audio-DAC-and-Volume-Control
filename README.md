@@ -1,7 +1,7 @@
 # Teensy4-USB-Audio-DAC-and-Volume-Control
 This is a Teensy 4 (https://www.pjrc.com/store/) USB Audio DAC (PCM 5102) and USB Volume Control using Volume Up and Down buttons (as in Teensy4USBAudioKeybrd2.ino) and with an additional rotary encoder as volume control (as in Teensy4USBAudioKeybrd6.ino). 
 
-The encoder push-button switches the display on and off (the mute function is not enabled in the Teensy 4 USB Audio device). It is also convenient to attach a pushbutton to the Teensy 4 on/off pin - pressing it for 5 seconds will switch the DAC off and pressing it again for 2 seconds will switch it back on.
+The encoder push-button switches the display on and off (the mute function seems to be not functional in the Teensy 4 USB Audio device - even using the mute from directly in windows has no effect). It is also convenient to attach a pushbutton to the Teensy 4 on-off pin - pressing it for 5 seconds will switch the DAC off and pressing it again for 2 seconds will switch it back on.
 
 ### Schematic and construction and parts
 Schematic of the Teensy 4.0 with a PCM5102 DAC and a 0.66" SSD1306 Wemos D1 Mini 64x48 i2c OLED Shield:
