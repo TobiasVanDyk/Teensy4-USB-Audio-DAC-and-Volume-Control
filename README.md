@@ -3,7 +3,7 @@ This is a Teensy 4 (https://www.pjrc.com/store/) USB Audio DAC (PCM 5102) and US
 
 The encoder push-button switches the display on and off (the mute function seems to be not functional in the Teensy 4 USB Audio device - even using the mute from directly in windows has no effect). It is also convenient to attach a pushbutton to the Teensy 4 on-off pin - pressing it for 5 seconds will switch the DAC off and pressing it again for 2 seconds will switch it back on.
 
-Later another type of DAC was tried - namely the ESS ES9023 Sabre 24-bit/192kHz DAC, with connections in Raspberry Pi GPIO layout: DATA pin 40 to Teensy pin 7, BCLK pin 12 to Teensy pin 21, LRCK pin 35 to Teensy pin 20. It used the Teensy 4.0's +5v supply and GND. Operation was flawless and the USB volume control also worked perfectly. See the last picture on this page for hook-up details.
+Later another type of DAC was tried - namely the ESS ES9023 Sabre 24-bit/192kHz DAC, with connections in Raspberry Pi GPIO layout: DATA pin 40 to Teensy pin 7, BCLK pin 12 to Teensy pin 21, LRCK pin 35 to Teensy pin 20 (MCLK is left unconnected - do not connect to GND). It used the Teensy 4.0's +5v supply and GND. Operation was flawless and the USB volume control also worked perfectly. See the last picture on this page for hook-up details.
 
 Note that changes are required to boards.txt and to the Teensy 4 usb_desc.h - the current "All of the Above" option does not show when using the unmodified files. Refer to the two screendumps in the Programming section below.
 
