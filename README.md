@@ -8,13 +8,13 @@ Later another type of DAC was tried - namely the ESS ES9023 Sabre 24-bit/192kHz 
 Note that changes are required to boards.txt and to the Teensy 4 usb_desc.h - the current "All of the Above" option does not show when using the unmodified files. Refer to the two screendumps in the Programming section below.
 
 ### Schematic and construction and parts
-Schematic of the Teensy 4.0 with a PCM5102 DAC and a 0.66" SSD1306 Wemos D1 Mini 64x48 i2c OLED Shield:
+Schematic of the Teensy 4.0 with a PCM5102 or ES9023 DAC and a 0.66" SSD1306 Wemos D1 Mini 64x48 i2c OLED Shield:
 <br>
 <p align="center">
 <img src="Teensy4AudioDAC2.png" width="640" /> 
 <br>
   
-Case bottom houses the Teensy 4.0 and the PCM5102 or ES9023 DAC. The case lid holds the 64x48 OLED, optionally 3 pushbuttons, and the rotary encoder.
+Case bottom houses the Teensy 4.0 and the PCM5102 DAC. The case lid holds the 64x48 OLED, optionally 3 pushbuttons, and the rotary encoder.
 <br>
 <p align="center">
 <img src="Case1.png" width="940" />  
