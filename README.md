@@ -43,8 +43,7 @@ KY040 Rotary Encoder:
 <p align="center">
 <img src="KY040 Rotary Encoder.png" width="900" />  
 <br>
-  
-PCM5102 DAC (left) and ES9023 DAC (right):
+PCM5102 DAC https://www.robotics.org.za/PCM5102 and ES9023 DAC http://www.suptronics.com/miniPCkits/x900.html
 <br>
 <p align="center">
 <img src="dac.jpg" width="900" />  
