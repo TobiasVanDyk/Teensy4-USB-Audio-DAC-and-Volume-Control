@@ -5,6 +5,8 @@ The encoder push-button switches the display on and off (the mute function seems
 
 Later another type of DAC was tried - namely the ESS ES9023 Sabre 24-bit/192kHz DAC, with connections in Raspberry Pi GPIO layout: DATA pin 40 to Teensy pin 7, BCLK pin 12 to Teensy pin 21, LRCK pin 35 to Teensy pin 20. It used the Teensy 4.0's +5v supply and GND. Operation was flawless and the USB volume control also worked perfectly. See the last picture on this page for hook-up details.
 
+Note that changes are required to boards.txt and to the Teensy 4 usb_desc.h - the current "All of the Above" option does not show when using the unmodified files. Refer to the two screendumps in the Programming section below.
+
 ### Schematic and construction and parts
 Schematic of the Teensy 4.0 with a PCM5102 DAC and a 0.66" SSD1306 Wemos D1 Mini 64x48 i2c OLED Shield:
 <br>
