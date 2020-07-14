@@ -77,6 +77,6 @@ Case bottom (at the top) houses the Teensy 4.0 and the PCM5102 DAC. The case lid
 ESS ES9023 Sabre DAC X900 Raspberry Pi GPIO format.
 <br>
 <p align="center">
-<img src="ESP9023.png" width="940" />  
+<img src="ES9023.png" width="940" />  
 <br>
 
