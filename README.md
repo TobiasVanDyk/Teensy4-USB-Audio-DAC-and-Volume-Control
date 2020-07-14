@@ -14,7 +14,7 @@ Schematic of the Teensy 4.0 with a PCM5102 DAC and a 0.66" SSD1306 Wemos D1 Mini
 <img src="Teensy4AudioDAC2.png" width="640" /> 
 <br>
   
-Case bottom houses the Teensy 4.0 and the PCM5102 DAC. The case lid holds the 64x48 OLED, optionally 3 pushbuttons, and the rotary encoder.
+Case bottom houses the Teensy 4.0 and the PCM5102 or ES9023 DAC. The case lid holds the 64x48 OLED, optionally 3 pushbuttons, and the rotary encoder.
 <br>
 <p align="center">
 <img src="Case1.png" width="940" />  
