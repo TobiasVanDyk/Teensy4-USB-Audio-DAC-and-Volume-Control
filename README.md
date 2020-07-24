@@ -13,37 +13,37 @@ Todo: Replace the text-based display with a graphics-based display for increased
 Schematic of the Teensy 4.0 with a PCM5102 or ES9023 DAC and a 0.66" SSD1306 Wemos D1 Mini 64x48 i2c OLED Shield:
 <br>
 <p align="center">
-<img src="Teensy4AudioDAC2.png" width="640" /> 
+<img src="Teensy4AudioDAC2.jpg" width="640" /> 
 <br>
   
 Case bottom houses the Teensy 4.0 and the PCM5102 DAC. The case lid holds the 64x48 OLED, optionally 3 pushbuttons, and the rotary encoder.
 <br>
 <p align="center">
-<img src="Case1.png" width="940" />  
+<img src="Case1.jpg" width="940" />  
 <br>  
   
 All wired up - I decided to discard the three pushbuttons - they add little functionality. May add them again at a later stage.
 <br>
 <p align="center">
-<img src="Case4.png" width="940" />  
+<img src="Case4.jpg" width="940" />  
 <br>
   
 Finished - but it deserves a proper aluminium knob instead of a toothpase cap.
 <br>
 <p align="center">
-<img src="Case5.png" width="940" />  
+<img src="Case5.jpg" width="940" />  
 <br>
   
 0.66" SSD1306 Wemos D1 Mini 64x48 i2c OLED Shield:
 <br>
 <p align="center">
-<img src="WemosOled.png" width="700" />  
+<img src="WemosOled.jpg" width="700" />  
 <br> 
   
 KY040 Rotary Encoder:
 <br>
 <p align="center">
-<img src="KY040 Rotary Encoder.png" width="900" />  
+<img src="KY040 Rotary Encoder.jpg" width="900" />  
 <br>
 PCM5102 DAC https://www.robotics.org.za/PCM5102 and ES9023 DAC http://www.suptronics.com/miniPCkits/x900.html
 <br>
@@ -56,36 +56,36 @@ PCM5102 DAC https://www.robotics.org.za/PCM5102 and ES9023 DAC http://www.suptro
 Audio device in windows:
 <br>
 <p align="center">
-<img src="AudioDevice1.png" width="414" />  
+<img src="AudioDevice1.jpg" width="414" />  
 <br>
 
 Old and new USB choice in Arduino IDE for Teensy 4 (refer to the changes made in boards.txt and usb_desc.h):
 <br>
 <p align="center">
-<img src="Teensy4USBTypes1.png" width="506" />  
+<img src="Teensy4USBTypes1.jpg" width="506" />  
 <br>
 <p align="center">
-<img src="Teensy4USBTypes2.png" width="584" />  
+<img src="Teensy4USBTypes2.jpg" width="584" />  
 <br> 
 
 ### Initial testing and further construction details:
 Initial testing with 2 volume up/down pushbuttons, and also with a rotary encoder as a USB volume control.
 <p align="center">
-<img src="UsbAudioVolumeButtons2.png" width="940" />  
+<img src="UsbAudioVolumeButtons2.jpg" width="940" />  
 <br>
 <p align="center">
-<img src="UsbAudioVolumeButtons1.png" width="940" />  
+<img src="UsbAudioVolumeButtons1.jpg" width="940" />  
 <br>
 
 Case bottom (at the top) houses the Teensy 4.0 and the PCM5102 DAC. The case lid (at the bottom) houses the 64x48 OLED, 3 pushbuttons (optional), and the rotary encoder.
 <br>
 <p align="center">
-<img src="Case2.png" width="940" />  
+<img src="Case2.jpg" width="940" />  
 <br>
 
 ESS ES9023 Sabre DAC X900 Raspberry Pi GPIO format.
 <br>
 <p align="center">
-<img src="ES9023.png" width="940" />  
+<img src="ES9023.jpg" width="940" />  
 <br>
 
