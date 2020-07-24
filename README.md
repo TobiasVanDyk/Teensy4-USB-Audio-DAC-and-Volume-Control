@@ -1,5 +1,5 @@
 # Teensy4-USB-Audio-DAC-and-Volume-Control
-This is a Teensy 4 (https://www.pjrc.com/store/) USB Audio DAC (**PCM 5102**) and USB Volume Control using Volume Up and Down buttons (as in Teensy4USBAudioKeybrd2.ino) and with an additional rotary encoder as volume control (as in Teensy4USBAudioKeybrd6.ino). 
+This is a [**Teensy 4**](https://www.pjrc.com/store/) USB Audio DAC (**PCM 5102**) and USB Volume Control using Volume Up and Down buttons (as in Teensy4USBAudioKeybrd2.ino) and with an additional rotary encoder as volume control (as in Teensy4USBAudioKeybrd6.ino). 
 
 The encoder push-button switches the display on and off (the mute function seems to be not functional in the Teensy 4 USB Audio device - even using the mute from directly in windows has no effect). It may also be convenient to attach a pushbutton to the Teensy 4 on-off pin - pressing it for 5 seconds will switch the DAC off and pressing it again for 2 seconds will switch it back on.
 
@@ -45,7 +45,7 @@ KY040 Rotary Encoder:
 <p align="center">
 <img src="KY040 Rotary Encoder.jpg" width="900" />  
 <br>
-PCM5102 DAC https://www.robotics.org.za/PCM5102 and ES9023 DAC http://www.suptronics.com/miniPCkits/x900.html
+PCM5102 DAC from [**Micro-Robotics**](https://www.robotics.org.za/PCM5102) and ES9023 DAC from [**Suptronics**](http://www.suptronics.com/miniPCkits/x900.html)
 <br>
 <p align="center">
 <img src="dac.jpg" width="900" />  
