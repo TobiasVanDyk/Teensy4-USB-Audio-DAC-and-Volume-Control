@@ -45,7 +45,8 @@ KY040 Rotary Encoder:
 <p align="center">
 <img src="KY040 Rotary Encoder.jpg" width="900" />  
 <br>
-PCM5102 DAC from Micro-Robotics (https://www.robotics.org.za/PCM5102) and ES9023 DAC from Suptronics (http://www.suptronics.com/miniPCkits/x900.html)
+  
+PCM5102 DAC from [**Micro-Robotics**](https://www.robotics.org.za/PCM5102) and ES9023 DAC from [**Suptronics**](http://www.suptronics.com/miniPCkits/x900.html)
 <br>
 <p align="center">
 <img src="dac.jpg" width="900" />  
