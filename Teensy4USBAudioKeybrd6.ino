@@ -10,7 +10,7 @@
 // Audio + Keyboard (mediakeys) (+ pseudoSerial)
 // This requires the modifide boards.txt and usb_desc.h
 // Re-programming is easier if Teensy loader is closed
-// before pressing the reset button on Teensy 4 - else
+// before pressing the program/reset button on Teensy 4 - else
 // it is difficult to show the port in the Arduino IDE (windows)
 //////////////////////////////////////////////////////////////////
 #include <Audio.h>
