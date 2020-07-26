@@ -7,7 +7,7 @@ Later another type of DAC was tried - namely the [**ESS ES9023 Sabre**](http://w
 
 Note that changes are required to boards.txt and to the Teensy 4 usb_desc.h - the current "All of the Above" option does not show when using the unmodified files. Refer to the two screendumps in the Programming section below.
 
-Todo: Replace the text-based display (max of 10 units) with a graphics-based display (64 units), for an increased resolution of the peak level indicators.
+To do: Replace the text-based display (max of 10 units) with a graphics-based display (64 units), for an increased resolution of the peak level indicators.
 
 ### Schematic and construction and parts
 Schematic of the Teensy 4.0 with a PCM5102 or ES9023 DAC and a 0.66" SSD1306 Wemos D1 Mini 64x48 i2c OLED Shield:
