@@ -38,7 +38,7 @@ Right: Finished - but it deserves a proper aluminium knob instead of a toothpase
 PCM5102 DAC from [**Micro-Robotics**](https://www.robotics.org.za/PCM5102) and ES9023 DAC from [**Suptronics**](http://www.suptronics.com/miniPCkits/x900.html)
 <br>
 <p align="center">
-<img src="dac.jpg" width="900" />  
+<img src="dac.jpg" width="700" />  
 <br> 
 
 ### Programming
@@ -52,10 +52,8 @@ Audio device in windows:
 Old and new USB choice in Arduino IDE for Teensy 4 (refer to the changes made in boards.txt and usb_desc.h):
 <br>
 <p align="center">
-<img src="Teensy4USBTypes1.jpg" width="506" />  
-<br>
-<p align="center">
-<img src="Teensy4USBTypes2.jpg" width="584" />  
+<img src="Teensy4USBTypes1.jpg" width="350" />  
+<img src="Teensy4USBTypes2.jpg" width="350" />  
 <br> 
 
 ### Initial testing and further construction details:
