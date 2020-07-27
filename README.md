@@ -28,17 +28,12 @@ Right: Finished - but it deserves a proper aluminium knob instead of a toothpase
 <img src="Case5.jpg" width="320" />  
 </p>
 
-0.66" SSD1306 Wemos D1 Mini 64x48 i2c OLED Shield:
-<br>
+0.66" SSD1306 Wemos D1 Mini 64x48 i2c OLED Shield and the KY040 Rotary Encoder:
+
 <p align="center">
-<img src="WemosOled.jpg" width="700" />  
-<br> 
-  
-KY040 Rotary Encoder:
-<br>
-<p align="center">
-<img src="KY040 Rotary Encoder.jpg" width="900" />  
-<br>
+<img src="WemosOled.jpg" width="420" />  
+<img src="KY040 Rotary Encoder.jpg" width="420" />  
+</p>
   
 PCM5102 DAC from [**Micro-Robotics**](https://www.robotics.org.za/PCM5102) and ES9023 DAC from [**Suptronics**](http://www.suptronics.com/miniPCkits/x900.html)
 <br>
