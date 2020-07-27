@@ -18,9 +18,9 @@ Schematic of the Teensy 4.0 with a PCM5102 or ES9023 DAC and a 0.66" SSD1306 Wem
   
 Left: Case bottom houses the Teensy 4.0 and the PCM5102 DAC. The case lid holds the 64x48 OLED, optionally 3 pushbuttons, and the rotary encoder.
 
-Middle: All wired up - I decided to discard the three pushbuttons - they add little functionality. May add them again at a later stage.
+Right: All wired up - I decided to discard the three pushbuttons - they add little functionality. May add them again at a later stage.
 
-Right: Finished - but it deserves a proper aluminium knob instead of a toothpase cap.
+Bottom: Finished - but it deserves a proper aluminium knob instead of a toothpase cap.
 
 <p align="center">
 <img src="Case1.jpg" width="300" />  
