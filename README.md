@@ -1,5 +1,6 @@
 # Teensy4-USB-Audio-DAC-and-Volume-Control
 
+**Binary display mode values from 0 to 11111111:**
 <p align="left">
 <img src="BinaryMode1.jpg" width="650" />  
 <br>
