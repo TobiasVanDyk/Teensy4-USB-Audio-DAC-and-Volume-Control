@@ -2,7 +2,7 @@
 
 **Binary peak audio level display mode values range from 0 to 11111111:**
 <p align="left">
-<img src="BinaryMode1.jpg" width="650" />  
+<img src="BinaryMode1.jpg" width="550" />  
 <br>
   
 This is a [**Teensy 4**](https://www.pjrc.com/store/) USB Audio DAC [**PCM5102**](https://www.robotics.org.za/PCM5102) and USB Volume Control using Volume Up and Down buttons (as in Teensy4USBAudioKeybrd2.ino) and with an additional rotary encoder as volume control (as in Teensy4USBAudioKeybrd6.ino). 
@@ -26,7 +26,7 @@ Schematic of the Teensy 4.0 with a PCM5102 or ES9023 DAC and a 0.66" SSD1306 Wem
 
 3 - Finished - but it deserves a proper aluminium knob instead of a toothpase cap.
 
-<p align="center">
+<p align="left">
 <img src="Case1.jpg" width="300" />  
 <img src="Case4.jpg" width="300" />  
 <img src="Case5.jpg" width="300" />  
@@ -49,7 +49,7 @@ PCM5102 DAC from [**Micro-Robotics**](https://www.robotics.org.za/PCM5102) and E
 
 Audio device in windows:
 <br>
-<p align="center">
+<p align="left">
 <img src="AudioDevice1.jpg" width="350" />  
 <br>
 
