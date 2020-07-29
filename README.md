@@ -1,7 +1,7 @@
 # Teensy4-USB-Audio-DAC-and-Volume-Control
 
 <p align="center">
-<img src="BinaryMode.jpg" width="650" />  
+<img src="BinaryMode1.jpg" width="650" />  
 <br>
   
 This is a [**Teensy 4**](https://www.pjrc.com/store/) USB Audio DAC [**PCM5102**](https://www.robotics.org.za/PCM5102) and USB Volume Control using Volume Up and Down buttons (as in Teensy4USBAudioKeybrd2.ino) and with an additional rotary encoder as volume control (as in Teensy4USBAudioKeybrd6.ino). 
