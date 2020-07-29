@@ -7,7 +7,6 @@
 // LRCK         20 LRCLK1
 // DATA         7  OUT1A
 // BCK          21 BCLK1
-
 ///////////////////////////////////////////////////////
 // Set Tools -> USB Type -> (All of the Above)
 // Audio + Keyboard (mediakeys) (+ Serial if needed)
@@ -17,7 +16,7 @@
 ///////////////////////////////////////////////////////
 // Toggle between three displaymodes when encoder switch 
 // pressed for display on/off:
-// Displaymode: Bar (0) Binary (1 or Bar 2(inverted)
+// Displaymode: Bar (0) Binary (1 or 2 (inverted)
 //////////////////////////////////////////////////////
 //
 #include <Audio.h>
