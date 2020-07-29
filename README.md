@@ -1,7 +1,7 @@
 # Teensy4-USB-Audio-DAC-and-Volume-Control
 
 <p align="left">
-<img src="BinaryMode1.jpg" width="450" />
+<img src="BinaryMode1.jpg" width="450" /><br>
 Binary peak audio level display mode values range from 0 to 11111111.
 </p><br>
 
