@@ -1,6 +1,6 @@
 # Teensy4-USB-Audio-DAC-and-Volume-Control
 
-<p align="center">
+<p align="left">
 <img src="BinaryMode1.jpg" width="650" />  
 <br>
   
