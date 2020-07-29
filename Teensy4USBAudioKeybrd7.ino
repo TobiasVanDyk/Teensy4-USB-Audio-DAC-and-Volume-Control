@@ -16,7 +16,7 @@
 ///////////////////////////////////////////////////////
 // Toggle between three displaymodes when encoder switch 
 // pressed for display on/off:
-// Displaymode: Bar (0) Binary (1 or 2 (inverted)
+// Displaymode: Bar (0) Binary 1 or 2 (inverted)
 //////////////////////////////////////////////////////
 //
 #include <Audio.h>
@@ -68,7 +68,7 @@ Bounce button1 = Bounce(1, 10);
 Bounce button4 = Bounce(4, 10);  
 
 int DisplayOff = 0;
-int BinBar = 1;
+int BinBar = 1;         // Displaymode : Bar (0) Binary 1 or 2 (inverted)
 elapsedMillis fps = 0;
 int quiet = 1;
 
