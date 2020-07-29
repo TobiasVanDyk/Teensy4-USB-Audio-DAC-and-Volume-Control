@@ -12,8 +12,6 @@ Later another type of DAC was tried - namely the [**ESS ES9023 Sabre**](http://w
 
 Note that changes are required to boards.txt and to the Teensy 4 usb_desc.h - the current "All of the Above" option does not show when using the unmodified files. Refer to the two screendumps in the Programming section below.
 
-To do: Replace the text-based display (max of 8 characters/units) with a graphics-based display (64 lines/units), for an increased resolution. Also move the (low informational value info page) to a three second delayed shutdown section (i.e. when encoder switch is pressed). A full reboot or sleep instead of just a display switch could also be considered - perhaps a second press of the encoder switch whilst in 3 second shutdown mode using asm("wfi") or asm("bkpt #251") (inversely) respectively.
-
 ### Schematic and construction and parts
 Schematic of the Teensy 4.0 with a PCM5102 or ES9023 DAC and a 0.66" SSD1306 Wemos D1 Mini 64x48 i2c OLED Shield:
 <br>
