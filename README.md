@@ -17,7 +17,7 @@ Note that changes are required to boards.txt and to the Teensy 4 usb_desc.h - th
 
 Schematic of the Teensy 4.0 with a PCM5102 or ES9023 DAC and a 0.66" SSD1306 Wemos D1 Mini 64x48 i2c OLED Shield.
 <p align="left">
-<img src="Teensy4AudioDAC2.jpg" width="640" /><br>
+<img src="Teensy4AudioDAC.jpg" width="640" /><br>
 </p>
 
 1 - Case bottom houses the Teensy 4.0 and the PCM5102 DAC. The case lid holds the 64x48 OLED, optionally 3 pushbuttons, and the rotary encoder.<br>
