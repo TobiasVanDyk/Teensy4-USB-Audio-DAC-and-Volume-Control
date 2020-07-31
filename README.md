@@ -2,7 +2,7 @@
 
 Binary peak audio level display mode values range from 0 to 11111111:
 <p align="left">
-<img src=images/"BinaryMode1.jpg" width="450" />
+<img src="images/BinaryMode1.jpg" width="450" />
 </p>
 
 This is a [**Teensy 4**](https://www.pjrc.com/store/) USB Audio DAC [**PCM5102**](https://www.robotics.org.za/PCM5102) and USB Volume Control using Volume Up and Down buttons (Teensy4USBAudioKeybrd2.ino) and with an additional rotary encoder as volume control (as in Teensy4USBAudioKeybrd7.ino).
