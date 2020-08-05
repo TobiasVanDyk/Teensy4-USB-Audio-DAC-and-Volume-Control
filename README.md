@@ -7,11 +7,11 @@ Binary peak audio level display mode values range from 0 to 11111111:
 
 This is a [**Teensy 4**](https://www.pjrc.com/store/) USB Audio DAC [**PCM5102**](https://www.robotics.org.za/PCM5102) and USB Volume Control using Volume Up and Down buttons (Teensy4USBAudioKeybrd2.ino) and with an additional rotary encoder as volume control (as in Teensy4USBAudioKeybrd7.ino).
 
-The encoder switch toggles the display on and off, and also cycle through three different displaymodes, which is changed each time the switch is pressed (i.e. pressed twice). The three displaymodes are bar graph, and two binary modes (0 to 11111111), as normal and inverted text. (It was noted that the mute function is not functional for the Teensy 4 USB Audio device - even using the mute from directly in windows has no effect). It may also be convenient to attach an additional pushbutton to the Teensy 4 on-off pin - pressing it for 5 seconds will switch the DAC off and pressing it again for 2 seconds will switch it back on.
+The encoder switch toggles the display on and off, and also cycle through three different displaymodes, which is changed each time the switch is pressed (i.e. pressed twice). The three displaymodes are bar graph, and two binary modes (0 to 11111111), as normal and inverted text. (Notably the mute option is not working for the current Teensy 4.0 USB Audio device - even when using the mute from directly within windows it has no effect). As a optional addition, it may be convenient to attach a pushbutton to the Teensy 4.0 on-off pin - pressing it for 5 seconds will switch the DAC off, and pressing it again for 2 seconds will switch it back on.
 
-Later another DAC was tried - namely an [**ESS ES9023 Sabre**](http://www.suptronics.com/miniPCkits/x900.html) 24-bit/192kHz DAC, with connections in Raspberry Pi GPIO layout: DATA pin 40 to Teensy pin 7, BCLK pin 12 to Teensy pin 21, LRCK pin 35 to Teensy pin 20 (MCLK is left unconnected and do not connect it to GND). It used the Teensy 4.0's +5v supply and GND. Audio quality was equal or better (subjectively), than the PCM5102, and the USB volume control also worked as it should. Refer to the last picture on this page for further connection details.
+Another DAC was also connected - namely an [**ESS ES9023 Sabre**](http://www.suptronics.com/miniPCkits/x900.html) 24-bit/192kHz DAC, but with its interface pins in Raspberry Pi GPIO layout: DATA pin 40 to Teensy pin 7, BCLK pin 12 to Teensy pin 21, LRCK pin 35 to Teensy pin 20 (MCLK is left unconnected and do not connect it to GND). It used the Teensy 4.0's +5v supply and GND. Audio quality was equal or better (subjectively), than the PCM5102, and the USB volume control also worked as it should. Refer to the last picture on this page for further connection details.
 
-Note that changes are required to boards.txt and to the Teensy 4 usb_desc.h - the current "All of the Above" option does not show in the Arduino IDE when using the unmodified files. This applies to both Linux (Mint) and Windows (8.1) - refer to the screendumps in the Programming section below.
+Unfortunately changes are required to boards.txt and to the Teensy 4 usb_desc.h (under hardware/AVR/Teensy) - the current "All of the Above" option does not show in the Arduino IDE when using the unmodified files. This applies to both Linux (Mint) and Windows (8.1) - refer to the screendumps in the Programming section below.
 
 ### Schematic and construction and parts
 
@@ -59,7 +59,7 @@ Audio device in Linux Mint and Arduino IDE.
 <img src="images/AudioDevice1.jpg" width="350" />  
 </p>
 
-Old and new USB choice in Arduino IDE for Teensy 4 (refer to the changes made in boards.txt and usb_desc.h).
+Windows 8.1 old and new USB choice in Arduino IDE for Teensy 4 (refer to the changes made in boards.txt and usb_desc.h).
 <p align="left">
 <img src="images/Teensy4USBTypes1.jpg" width="350" />  
 <img src="images/Teensy4USBTypes2.jpg" width="350" /> 
