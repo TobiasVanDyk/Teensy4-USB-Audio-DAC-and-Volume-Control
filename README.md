@@ -44,14 +44,14 @@ PCM5102 DAC from [**Micro-Robotics**](https://www.robotics.org.za/PCM5102) and E
 
 **Linux Mint 19.3:** Old and new USB choice in Arduino IDE for Teensy 4.0 (refer to the changes made in boards.txt and usb_desc.h).
 <p align="left">
-<img src="images/mint1.jpg" width="350" />  
-<img src="images/mint2" width="350" /> 
+<img src="images/mint1.jpg" width="400" />  
+<img src="images/mint2.jpg" width="400" /> 
 </p>
 
 Audio device in Linux Mint and Arduino IDE.
 <p align="left">
-<img src="images/mint3.jpg" width="350" />  
-<img src="images/mint0" width="350" /> 
+<img src="images/mint3.jpg" width="400" />  
+<img src="images/mint0.jpg" width="400" /> 
 </p>
 
 **Window 8.1**: Audio device in windows.
