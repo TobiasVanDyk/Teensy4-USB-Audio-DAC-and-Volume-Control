@@ -11,7 +11,7 @@ The encoder switch toggles the display on and off, and also cycle through three 
 
 Later another DAC was tried - namely an [**ESS ES9023 Sabre**](http://www.suptronics.com/miniPCkits/x900.html) 24-bit/192kHz DAC, with connections in Raspberry Pi GPIO layout: DATA pin 40 to Teensy pin 7, BCLK pin 12 to Teensy pin 21, LRCK pin 35 to Teensy pin 20 (MCLK is left unconnected and do not connect it to GND). It used the Teensy 4.0's +5v supply and GND. Audio quality was equal or better (subjectively), than the PCM5102, and the USB volume control also worked as it should. Refer to the last picture on this page for further connection details.
 
-Note that changes are required to boards.txt and to the Teensy 4 usb_desc.h - the current "All of the Above" option does not show in the Arduino IDE when using the unmodified files. Refer to the two screendumps in the Programming section below.
+Note that changes are required to boards.txt and to the Teensy 4 usb_desc.h - the current "All of the Above" option does not show in the Arduino IDE when using the unmodified files. This applies to both Linux (Mint) and Windows (8.1) - refer to the screendumps in the Programming section below.
 
 ### Schematic and construction and parts
 
