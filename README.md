@@ -11,6 +11,12 @@ The encoder switch toggles the display on and off, and also cycle through three 
 
 Another DAC was also connected - namely an [**ESS ES9023 Sabre**](http://www.suptronics.com/miniPCkits/x900.html) 24-bit/192kHz DAC, but with its interface pins in Raspberry Pi GPIO layout: DATA pin 40 to Teensy pin 7, BCLK pin 12 to Teensy pin 21, LRCK pin 35 to Teensy pin 20 (MCLK is left unconnected and do not connect it to GND). It used the Teensy 4.0's +5v supply and GND. Audio quality was equal or better (subjectively), than the PCM5102, and the USB volume control also worked as it should. Refer to the last picture on this page for further connection details.
 
+It may be of interest to look at the threads listed below - note that I did not observe any (audible), audio blocking when updating the i2c display:
+1. [**Audio-cuts-out-when-updating-I2C-OLED-display**](https://forum.pjrc.com/threads/67141-Audio-cuts-out-when-updating-I2C-OLED-display)
+2. [**Teensy-4-Master-i2c-DMA-possible**](https://forum.pjrc.com/threads/61681-Teensy-4-Master-i2c-DMA-possible)
+3. [**I2C-Slave-on-Teensy-4**](https://forum.pjrc.com/threads/57861-I2C-Slave-on-Teensy-4?p=245920#post245920)
+4. [**Richard-Gemmell teensy4_i2**](https://github.com/Richard-Gemmell/teensy4_i2c)
+
 Unfortunately changes are required to boards.txt and to the Teensy 4 usb_desc.h (under hardware/AVR/Teensy) - the current "All of the Above" option does not show in the Arduino IDE when using the unmodified files. This applies to both Linux (Mint) and Windows (8.1) - refer to the screendumps in the Programming section below.
 
 ### Schematic and construction and parts
