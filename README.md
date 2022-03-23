@@ -3,8 +3,7 @@
 Binary peak audio level display mode values range from 0 to 11111111:
 <p align="left">
 <img src="images/BinaryMode1.jpg" width="450" />
- there are some variants of the Audio library out there supporting higher bit depths, and the 44.1kSPS is configurable by editing AudioStream.h in the core libraries,
-look for the AUDIO_SAMPLE_RATE_EXACT #define</p>
+</p>
 
 This is a [**Teensy 4**](https://www.pjrc.com/store/) USB Audio DAC [**PCM5102**](https://www.robotics.org.za/PCM5102) and USB Volume Control using Volume Up and Down buttons (Teensy4USBAudioKeybrd2.ino) and with an additional rotary encoder as volume control (as in Teensy4USBAudioKeybrd7.ino).
 
