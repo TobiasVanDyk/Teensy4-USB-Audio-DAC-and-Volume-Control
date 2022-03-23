@@ -21,7 +21,7 @@ It may be of interest to look at the threads listed below - note that I did not 
 3. [**I2C-Slave-on-Teensy-4**](https://forum.pjrc.com/threads/57861-I2C-Slave-on-Teensy-4?p=245920#post245920)
 4. [**Richard-Gemmell teensy4_i2**](https://github.com/Richard-Gemmell/teensy4_i2c)
 
-Unfortunately changes are required to boards.txt and to the Teensy 4 usb_desc.h (under hardware/AVR/Teensy) - the current "All of the Above" option does not show in the Arduino IDE when using the unmodified files. This applies to both Linux (Mint) and Windows (8.1) - refer to the screendumps in the Programming section below.
+Unfortunately changes are required to boards.txt and to the Teensy 4 usb_desc.h (under hardware/AVR/Teensy) - the current "All of the Above" option does not show in the Arduino IDE when using the unmodified files. This applies to both Linux (Mint) and Windows (8.1) - refer to the screendumps in the Programming section below. For an explanation as to why the "All the things" is not available refer to [**Teensy 4.1 USB device code: why are all the functions avoiding EP1**](https://forum.pjrc.com/threads/69856-Teensy-4-1-USB-device-code-why-are-all-the-functions-avoiding-EP1)
 
 ### Schematic and construction and parts
 
