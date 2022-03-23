@@ -7,7 +7,7 @@ Binary peak audio level display mode values range from 0 to 11111111:
 
 This is a [**Teensy 4**](https://www.pjrc.com/store/) USB Audio DAC [**PCM5102**](https://www.robotics.org.za/PCM5102) and USB Volume Control using Volume Up and Down buttons (Teensy4USBAudioKeybrd2.ino) and with an additional rotary encoder as volume control (as in Teensy4USBAudioKeybrd7.ino).
 
-Although it was tested with a Teensy 4.0 at 16b/44.1kHz for both the PCM5102 and ES9023 Audio DACs, a recent change to the Teensyduino core should enable higer (44.1, 48, 88.2 96 kHz), sampling rates - see:
+Although it was tested with a Teensy 4.0 at 16bit/44.1kHz for both the PCM5102 and ES9023 Audio DACs, a recent change to the Teensyduino core should enable higer (44.1, 48, 88.2 96 kHz), sampling rates - see:
 1. [**USB-Audio-samplerates-added**](https://forum.pjrc.com/threads/67749-USB-Audio-samplerates-added)
 2. [**FrankBoesing cores USBAudio-samplerates**](https://github.com/FrankBoesing/cores/tree/USBAudio-samplerates)
 3. [**DIY USB Audio Cable**](https://forum.pjrc.com/threads/69760-DIY-USB-Audio-Cable?p=302493&viewfull=1#post302493) This link mentions that: *there are some variants of the Audio library out there supporting higher bit depths, and the 44.1kSPS is configurable by editing AudioStream.h in the core libraries, look for the AUDIO_SAMPLE_RATE_EXACT #define*
