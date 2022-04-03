@@ -10,6 +10,7 @@ This is a [**Teensy 4**](https://www.pjrc.com/store/) USB Audio DAC [**PCM5102**
 Although it was tested with a Teensy 4.0 at 16bit/44.1kHz for both the PCM5102 and ES9023 Audio DACs, a recent change to the Teensyduino core should enable higer (44.1, 48, 88.2 96 kHz), sampling rates - see:
 1. [**USB-Audio-samplerates-added**](https://forum.pjrc.com/threads/67749-USB-Audio-samplerates-added)
 2. [**DIY USB Audio Cable**](https://forum.pjrc.com/threads/69760-DIY-USB-Audio-Cable?p=302493&viewfull=1#post302493) This link mentions that: *there are some variants of the Audio library out there supporting higher bit depths, and the 44.1kSPS is configurable by editing AudioStream.h in the core libraries, look for the AUDIO_SAMPLE_RATE_EXACT #define*
+3. [**Discussion about a simple way to change the sample-rate**](https://forum.pjrc.com/threads/38753-Discussion-about-a-simple-way-to-change-the-sample-rate/page4)
 
 The encoder switch toggles the display on and off, and also cycle through three different displaymodes, which is changed each time the switch is pressed (i.e. pressed twice). The three displaymodes are bar graph, and two binary modes (0 to 11111111), as normal and inverted text. (Notably the mute option is not working for the current Teensy 4.0 USB Audio device - even when using the mute from directly within windows it has no effect). As a optional addition, it may be convenient to attach a pushbutton to the Teensy 4.0 on-off pin - pressing it for 5 seconds will switch the DAC off, and pressing it again for 2 seconds will switch it back on.
 
