@@ -26,7 +26,9 @@ Unfortunately changes are required to boards.txt and to the Teensy 4 usb_desc.h 
 
 For an explanation as to why the "All The Things" USB option is not available refer to [**Teensy 4.1 USB device code: why are all the functions avoiding EP1**](https://forum.pjrc.com/threads/69856-Teensy-4-1-USB-device-code-why-are-all-the-functions-avoiding-EP1).
 
-For examples of changing the usb descriptors refer to [**Use Teensy as Midi and USB Keyboard controller at the same time**](https://forum.pjrc.com/threads/55691-Use-Teensy-as-Midi-and-USB-Keyboard-controller-at-the-same-time), and [**How to add a new interface to support RawHID + Keyboard**](https://forum.pjrc.com/threads/69500-2022-How-to-add-a-new-interface-to-support-RawHID-Keyboard), and [**Dual SerialUSB and MIDI config possible**](https://forum.pjrc.com/threads/66330-Dual-SerialUSB-and-MIDI-config-possible). An [**example of the changes in usb_desc.h**](https://github.com/TobiasVanDyk/cores) is as below:
+For examples of changing the usb descriptors refer to [**Use Teensy as Midi and USB Keyboard controller at the same time**](https://forum.pjrc.com/threads/55691-Use-Teensy-as-Midi-and-USB-Keyboard-controller-at-the-same-time), and [**How to add a new interface to support RawHID + Keyboard**](https://forum.pjrc.com/threads/69500-2022-How-to-add-a-new-interface-to-support-RawHID-Keyboard), and [**Dual SerialUSB and MIDI config possible**](https://forum.pjrc.com/threads/66330-Dual-SerialUSB-and-MIDI-config-possible). 
+
+An [**example of the changes in usb_desc.h**](https://github.com/TobiasVanDyk/cores) is as below:
 <p align="left">
 <img src="images/usb_desc_h_changes.png" width="200" />  
 </p>
