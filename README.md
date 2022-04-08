@@ -5,7 +5,7 @@ Binary peak audio level display mode values range from 0 to 11111111:
 <img src="images/BinaryMode1.jpg" width="450" />
 </p>
 
-This is a [**Teensy 4**](https://www.pjrc.com/store/) USB Audio DAC [**PCM5102**](https://www.robotics.org.za/PCM5102) and USB Volume Control using Volume Up and Down buttons (Teensy4USBAudioKeybrd2.ino) and with an additional rotary encoder as volume control (as in Teensy4USBAudioKeybrd7.ino).
+This is a [**Teensy 4**](https://www.pjrc.com/store/) USB Audio DAC [**PCM5102**](https://www.robotics.org.za/PCM5102) and USB Volume Control using Volume Up and Down buttons (in Old-2020/Teensy4USBAudioKeybrd2.ino) and with an additional rotary encoder as volume control (as in Teensy4USBAudioKeybrd8.ino as the 2020 version Old-2020/Teensy4USBAudioKeybrd7.ino).
 
 Although it was tested with a Teensy 4.0 at 16bit/44.1kHz for both the PCM5102 and ES9023 Audio DACs, a recent change to the Teensyduino core should enable higer (44.1, 48, 88.2 96 kHz), sampling rates - see:
 1. [**USB-Audio-samplerates-added**](https://forum.pjrc.com/threads/67749-USB-Audio-samplerates-added)
@@ -63,6 +63,11 @@ Audio device in Linux Mint and Arduino IDE.
 <p align="left">
 <img src="images/mint3.jpg" width="400" />  
 <img src="images/mint0.jpg" width="400" /> 
+</p>
+
+**Window 10**: Audio device in windows.
+<p align="left">
+<img src="images/2022windows.jpg" width="550" />  
 </p>
 
 **Window 8.1**: Audio device in windows.
