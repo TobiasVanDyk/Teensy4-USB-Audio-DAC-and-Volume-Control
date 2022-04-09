@@ -44,9 +44,9 @@ Schematic of the Teensy 4.0 with a PCM5102 or ES9023 DAC and a 0.66" SSD1306 Wem
 2 - All wired up - I decided to discard the three pushbuttons - they add little functionality. May add them again at a later stage.<br>
 3 - Finished - but it deserves a proper aluminium knob instead of a toothpase cap.
 <p align="left">
-<img src="images/Case1.jpg" width="300" />  
-<img src="images/Case4.jpg" width="300" />  
-<img src="images/Case5.jpg" width="300" />  
+<img src="images/Case1.jpg" width="280" />  
+<img src="images/Case4.jpg" width="260" />  
+<img src="images/Case5.jpg" width="240" />  
 </p>
 
 0.66" SSD1306 Wemos D1 Mini 64x48 i2c OLED Shield and the KY040 Rotary Encoder.
